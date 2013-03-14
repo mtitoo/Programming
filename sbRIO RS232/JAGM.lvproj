@@ -36,6 +36,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="JAGM_FPGATarget_FPGAMain_3783B04E.lvbitx" Type="Document" URL="../FPGA Bitfiles/JAGM_FPGATarget_FPGAMain_3783B04E.lvbitx"/>
 			<Item Name="JAGM_FPGATarget_TestChan1_9C6359DC.lvbitx" Type="Document" URL="../Host/FPGA Bitfiles/JAGM_FPGATarget_TestChan1_9C6359DC.lvbitx"/>
 			<Item Name="Log_Manager_States.ctl" Type="VI" URL="../Host/Utilities/Controls/Log_Manager_States.ctl"/>
 			<Item Name="Log_Manager_subVI.vi" Type="VI" URL="../Host/Utilities/Log/Log_Manager_subVI.vi"/>
@@ -64,7 +65,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
